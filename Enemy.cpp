@@ -31,7 +31,7 @@ void Enemy::Update()
 	{
 		GameObject* p = Instantiate<EnemyBullet>(this);
 		p->SetPosition(transform_.position_);
-		p->SetScale(0.2, 0.2, 0.2);
+		p->SetScale(0.1, 0.1, 0.1);
 		count = 100;
 	}
 }

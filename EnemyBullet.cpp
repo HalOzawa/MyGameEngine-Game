@@ -11,7 +11,7 @@ EnemyBullet::EnemyBullet(GameObject* parent)
 
 void EnemyBullet::Initialize()
 {
-	hModel = Model::Load("Assets/Player.fbx");
+	hModel = Model::Load("Assets/oden.fbx");
 	transform_.position_.z = -1.0f;
 	transform_.rotate_.z = 180.0f;
 	SphereCollider* collider = new SphereCollider(0.5f);
